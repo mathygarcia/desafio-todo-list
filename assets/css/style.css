@@ -1,0 +1,59 @@
+.contenedor {
+    background-color: #E7F6F2;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    border: 2px solid #A5C9CA;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+.todolist{
+    color: #2C3333;
+}
+.Ingresa-lista input {
+    width: 89%;
+}
+
+.Ingresa-lista button {
+    width: 10%;
+    /* background-color:#395B64; */
+}
+
+.Ingresa-lista p {
+    margin-bottom: 0%;
+}
+
+.container-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Resumen {
+    width: 20%;
+}
+
+.Lista-tareas {
+    width: 70%;
+}
+
+.x {
+    line-height: 1rem;
+    color: rgb(235, 47, 47);
+}
+
+td {
+    padding-right: 1rem;
+}
+
+.col-task {
+    padding-right: 23.5rem;
+}
+
+.col-id {
+    padding-right: 7.5rem;
+}
