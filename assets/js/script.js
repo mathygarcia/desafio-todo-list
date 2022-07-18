@@ -34,7 +34,7 @@ rendering();
 function getHomework() {
     const newHomework = addTask.value;
     if (newHomework === "") {
-        alert("Debe agregar una tarea!");
+        alert("No ingreso ninguna tarea ,Intentar Nuevamente.");
     } else {
         tareas.push({
             id: Date.now(),
